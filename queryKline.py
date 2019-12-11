@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
-
-
-#!/usr/bin/env python
-# coding: utf-8
-
 import json
 import pandas as pd
 from datetime import datetime, date, timedelta
@@ -39,10 +33,3 @@ for i in range(6):
     df = df.rename(columns={i: list[i]})
     
 print(df)
-
-
-# In[ ]:
-
-
-
-
